@@ -1341,7 +1341,7 @@ pico-sdk/tools/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=43,44 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=60,61 "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1367,7 +1367,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=45 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=62 "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1393,7 +1393,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=46 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=63 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1420,12 +1420,12 @@ led/CMakeFiles/led.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_d
 led/CMakeFiles/led.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f led\CMakeFiles\led.dir\build.make led/CMakeFiles/led.dir/depend
 	$(MAKE) $(MAKESILENT) -f led\CMakeFiles\led.dir\build.make led/CMakeFiles/led.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target led"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100 "Built target led"
 .PHONY : led/CMakeFiles/led.dir/all
 
 # Build rule for subdir invocation for target.
 led/CMakeFiles/led.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 63
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 led/CMakeFiles/led.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : led/CMakeFiles/led.dir/rule
@@ -1473,12 +1473,12 @@ Optical-SW/CMakeFiles/Optical-SW.dir/all: pico-sdk/src/rp2_common/boot_stage2/CM
 Optical-SW/CMakeFiles/Optical-SW.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f Optical-SW\CMakeFiles\Optical-SW.dir\build.make Optical-SW/CMakeFiles/Optical-SW.dir/depend
 	$(MAKE) $(MAKESILENT) -f Optical-SW\CMakeFiles\Optical-SW.dir\build.make Optical-SW/CMakeFiles/Optical-SW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target Optical-SW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target Optical-SW"
 .PHONY : Optical-SW/CMakeFiles/Optical-SW.dir/all
 
 # Build rule for subdir invocation for target.
 Optical-SW/CMakeFiles/Optical-SW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 62
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Optical-SW/CMakeFiles/Optical-SW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : Optical-SW/CMakeFiles/Optical-SW.dir/rule

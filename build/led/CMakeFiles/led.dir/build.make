@@ -687,313 +687,19 @@ led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: led/CMakeFiles/led.dir/flags.make
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
-
-led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
+led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: led/CMakeFiles/led.dir/flags.make
+led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: led/CMakeFiles/led.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
+
+led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c > CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+
+led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\led.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
 # Object files for target led
 led_OBJECTS = \
@@ -1042,28 +748,7 @@ led_OBJECTS = \
 "CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+"CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 
 # External object files for target led
 led_EXTERNAL_OBJECTS =
@@ -1113,33 +798,12 @@ led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pi
 led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+led/led.elf: led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 led/led.elf: led/CMakeFiles/led.dir/build.make
 led/led.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 led/led.elf: led/CMakeFiles/led.dir/objects1.rsp
 led/led.elf: led/CMakeFiles/led.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX executable led.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable led.elf"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\led.dir\link.txt --verbose=$(VERBOSE)
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin\arm-none-eabi-objcopy.exe" -Oihex led.elf led.hex
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\led && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin\arm-none-eabi-objcopy.exe" -Obinary led.elf led.bin

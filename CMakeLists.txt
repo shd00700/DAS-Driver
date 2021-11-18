@@ -32,5 +32,5 @@ add_subdirectory(led)
 add_subdirectory(Optical-SW)
 
 # Enable usb output, disable uart output
-pico_enable_stdio_usb(led 1)
-pico_enable_stdio_uart(led 0)
+pico_enable_stdio_usb(Optical-SW 1)
+pico_enable_stdio_uart(Optical-SW 1)

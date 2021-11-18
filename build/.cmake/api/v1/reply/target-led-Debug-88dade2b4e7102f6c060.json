@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Optical-SW/Optical-SW.elf"
+			"path" : "led/led.elf"
 		}
 	],
 	"backtrace" : 1,
@@ -22,7 +22,7 @@
 		],
 		"files" : 
 		[
-			"Optical-SW/CMakeLists.txt",
+			"led/CMakeLists.txt",
 			"C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/boot_stage2/CMakeLists.txt",
 			"C:/VSARM/sdk/Pico/pico-sdk/tools/FindELF2UF2.cmake",
 			"C:/VSARM/sdk/Pico/pico-sdk/tools/CMakeLists.txt",
@@ -290,7 +290,7 @@
 				},
 				{
 					"backtrace" : 13,
-					"define" : "PICO_TARGET_NAME=\"Optical-SW\""
+					"define" : "PICO_TARGET_NAME=\"led\""
 				},
 				{
 					"backtrace" : 2,
@@ -674,7 +674,7 @@
 				},
 				{
 					"backtrace" : 13,
-					"define" : "PICO_TARGET_NAME=\"Optical-SW\""
+					"define" : "PICO_TARGET_NAME=\"led\""
 				},
 				{
 					"backtrace" : 2,
@@ -1046,7 +1046,7 @@
 				},
 				{
 					"backtrace" : 13,
-					"define" : "PICO_TARGET_NAME=\"Optical-SW\""
+					"define" : "PICO_TARGET_NAME=\"led\""
 				},
 				{
 					"backtrace" : 2,
@@ -1230,7 +1230,7 @@
 			"id" : "ELF2UF2Build::@2996c8984d2ee9ea37ab"
 		}
 	],
-	"id" : "Optical-SW::@c88230ffda8d579e1eb9",
+	"id" : "led::@2996c8984d2ee9ea37ab",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -2010,7 +2010,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-Map=Optical-SW.elf.map",
+				"fragment" : "-Wl,-Map=led.elf.map",
 				"role" : "flags"
 			},
 			{
@@ -2055,12 +2055,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Optical-SW",
-	"nameOnDisk" : "Optical-SW.elf",
+	"name" : "led",
+	"nameOnDisk" : "led.elf",
 	"paths" : 
 	{
-		"build" : "Optical-SW",
-		"source" : "Optical-SW"
+		"build" : "led",
+		"source" : "led"
 	},
 	"sourceGroups" : 
 	[
@@ -2128,7 +2128,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Optical-SW/optical-sw.c",
+			"path" : "led/led.c",
 			"sourceGroupIndex" : 0
 		},
 		{

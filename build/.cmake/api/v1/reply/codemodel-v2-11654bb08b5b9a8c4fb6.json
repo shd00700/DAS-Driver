@@ -1020,7 +1020,7 @@
 				{
 					"directoryIndex" : 71,
 					"id" : "Optical-SW::@c88230ffda8d579e1eb9",
-					"jsonFile" : "target-Optical-SW-Debug-f2eb75bca6cf530e8650.json",
+					"jsonFile" : "target-Optical-SW-Debug-237dea7792d31d2cccd0.json",
 					"name" : "Optical-SW",
 					"projectIndex" : 0
 				},
@@ -1048,7 +1048,7 @@
 				{
 					"directoryIndex" : 70,
 					"id" : "led::@2996c8984d2ee9ea37ab",
-					"jsonFile" : "target-led-Debug-4291ba9e7b55f8231d08.json",
+					"jsonFile" : "target-led-Debug-88dade2b4e7102f6c060.json",
 					"name" : "led",
 					"projectIndex" : 0
 				}
