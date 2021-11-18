@@ -1,8 +1,8 @@
-# Install script for directory: C:/VSARM/sdk/Pico/project/SLDD
+# Install script for directory: C:/VSARM/sdk/Pico/project/DAS-Driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SLDD")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/pico_examples")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/VSARM/sdk/Pico/project/SLDD/build/pico-sdk/cmake_install.cmake")
-  include("C:/VSARM/sdk/Pico/project/SLDD/build/led/cmake_install.cmake")
-  include("C:/VSARM/sdk/Pico/project/SLDD/build/AD5664/cmake_install.cmake")
+  include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/pico-sdk/cmake_install.cmake")
+  include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/led/cmake_install.cmake")
+  include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/Optical-SW/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/VSARM/sdk/Pico/project/SLDD/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/VSARM/sdk/Pico/project/DAS-Driver/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

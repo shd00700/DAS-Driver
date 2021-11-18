@@ -29,7 +29,7 @@ add_compile_options(-Wall
 
 # Hardware-specific examples in subdirectories:
 add_subdirectory(led)
-add_subdirectory(AD5664)
+add_subdirectory(Optical-SW)
 
 # Enable usb output, disable uart output
 pico_enable_stdio_usb(led 1)

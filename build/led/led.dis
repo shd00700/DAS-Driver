@@ -41,11 +41,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_ranges 00003690  00000000  00000000  0005dd80  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   00013d2b  00000000  00000000  00061410  2**0
+ 19 .debug_line   00013d31  00000000  00000000  00061410  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    00006401  00000000  00000000  0007513b  2**0
+ 20 .debug_str    0000640d  00000000  00000000  00075141  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  000024e0  00000000  00000000  0007b53c  2**2
+ 21 .debug_frame  000024e0  00000000  00000000  0007b550  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 led.elf:     file format elf32-littlearm

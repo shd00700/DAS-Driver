@@ -47,9 +47,9 @@ led/CMakeFiles/led.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/
  C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
  C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_base\include/pico/assert.h \
  c:\progra~2\gnuarm~1\102021~1.07\arm-none-eabi\include\assert.h \
- C:\VSARM\sdk\Pico\project\SLDD\build\generated\pico_base/pico/version.h \
+ C:\VSARM\sdk\Pico\project\DAS-Driver\build\generated\pico_base/pico/version.h \
  C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\VSARM\sdk\Pico\project\SLDD\build\generated\pico_base/pico/config_autogen.h \
+ C:\VSARM\sdk\Pico\project\DAS-Driver\build\generated\pico_base/pico/config_autogen.h \
  C:/VSARM/sdk/Pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

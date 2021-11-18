@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/VSARM/sdk/Pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/VSARM/sdk/Pico/project/SLDD/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/VSARM/sdk/Pico/project/DAS-Driver/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
