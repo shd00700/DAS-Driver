@@ -227,7 +227,8 @@ int main()
         //char ch[20];
 
         uint16_t ch = uart_getc(UART_ID);
-        if (ch == 'CX1')
+
+        if (ch == 'CH2')
         {
             swnum(2);
             printf("2ch\n");

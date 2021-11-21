@@ -118,6 +118,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "C:/VSARM/sdk/Pico/pico-sdk/tools/CMakeLists.txt"
   "C:/VSARM/sdk/Pico/pico-sdk/tools/FindELF2UF2.cmake"
+  "../AD5664/CMakeLists.txt"
   "../CMakeLists.txt"
   "../Optical-SW/CMakeLists.txt"
   "CMakeFiles/3.21.2/CMakeASMCompiler.cmake"
@@ -211,6 +212,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "led/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "led/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Optical-SW/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "AD5664/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -221,4 +223,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "led/CMakeFiles/led.dir/DependInfo.cmake"
   "led/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "Optical-SW/CMakeFiles/Optical-SW.dir/DependInfo.cmake"
+  "AD5664/CMakeFiles/AD5664.dir/DependInfo.cmake"
   )

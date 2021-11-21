@@ -10,7 +10,8 @@
 					[
 						1,
 						70,
-						71
+						71,
+						72
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -560,9 +561,9 @@
 					"source" : "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						2,
 						3,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -883,8 +884,8 @@
 					"source" : "led",
 					"targetIndexes" : 
 					[
-						0,
-						5
+						1,
+						6
 					]
 				},
 				{
@@ -899,7 +900,22 @@
 					"source" : "Optical-SW",
 					"targetIndexes" : 
 					[
-						1
+						2
+					]
+				},
+				{
+					"build" : "AD5664",
+					"jsonFile" : "directory-AD5664-Debug-950e6797d6c7a9cde0f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "AD5664",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -915,14 +931,16 @@
 					[
 						0,
 						70,
-						71
+						71,
+						72
 					],
 					"name" : "pico_examples",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						5
+						2,
+						6
 					]
 				},
 				{
@@ -1002,14 +1020,21 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 72,
+					"id" : "AD5664::@d2834ac68f3d52bc58e9",
+					"jsonFile" : "target-AD5664-Debug-ecc1b961383c46fa8a4a.json",
+					"name" : "AD5664",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 70,
 					"id" : "ELF2UF2Build::@2996c8984d2ee9ea37ab",
