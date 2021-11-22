@@ -148,6 +148,6 @@ C:/VSARM/sdk/Pico/project/DAS-Driver/build/led/CMakeFiles/edit_cache.dir
 C:/VSARM/sdk/Pico/project/DAS-Driver/build/Optical-SW/CMakeFiles/Optical-SW.dir
 C:/VSARM/sdk/Pico/project/DAS-Driver/build/Optical-SW/CMakeFiles/edit_cache.dir
 C:/VSARM/sdk/Pico/project/DAS-Driver/build/Optical-SW/CMakeFiles/rebuild_cache.dir
-C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD5664/CMakeFiles/AD5664.dir
-C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD5664/CMakeFiles/edit_cache.dir
-C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD5664/CMakeFiles/rebuild_cache.dir
+C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD56x4/CMakeFiles/AD56x4.dir
+C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD56x4/CMakeFiles/edit_cache.dir
+C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD56x4/CMakeFiles/rebuild_cache.dir

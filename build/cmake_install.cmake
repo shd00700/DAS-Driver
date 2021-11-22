@@ -42,7 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/pico-sdk/cmake_install.cmake")
   include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/led/cmake_install.cmake")
   include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/Optical-SW/cmake_install.cmake")
-  include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD5664/cmake_install.cmake")
+  include("C:/VSARM/sdk/Pico/project/DAS-Driver/build/AD56x4/cmake_install.cmake")
 
 endif()
 

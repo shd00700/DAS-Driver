@@ -194,17 +194,17 @@ Optical-SW/fast:
 .PHONY : Optical-SW/fast
 
 #=============================================================================
-# Target rules for targets named AD5664
+# Target rules for targets named AD56x4
 
 # Build rule for target.
-AD5664: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AD5664
-.PHONY : AD5664
+AD56x4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AD56x4
+.PHONY : AD56x4
 
 # fast build rule for target.
-AD5664/fast:
-	$(MAKE) $(MAKESILENT) -f AD5664\CMakeFiles\AD5664.dir\build.make AD5664/CMakeFiles/AD5664.dir/build
-.PHONY : AD5664/fast
+AD56x4/fast:
+	$(MAKE) $(MAKESILENT) -f AD56x4\CMakeFiles\AD56x4.dir\build.make AD56x4/CMakeFiles/AD56x4.dir/build
+.PHONY : AD56x4/fast
 
 # Help Target
 help:
@@ -217,7 +217,7 @@ help:
 	@echo ... ELF2UF2Build
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
-	@echo ... AD5664
+	@echo ... AD56x4
 	@echo ... Optical-SW
 	@echo ... bs2_default
 	@echo ... led
