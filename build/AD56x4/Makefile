@@ -1081,30 +1081,6 @@ C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build && $(MAKE) $(MAKESILENT) -f AD56x4\CMakeFiles\AD56x4.dir\build.make AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build && $(MAKE) $(MAKESILENT) -f AD56x4\CMakeFiles\AD56x4.dir\build.make AD56x4/CMakeFiles/AD56x4.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build && $(MAKE) $(MAKESILENT) -f AD56x4\CMakeFiles\AD56x4.dir\build.make AD56x4/CMakeFiles/AD56x4.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build && $(MAKE) $(MAKESILENT) -f AD56x4\CMakeFiles\AD56x4.dir\build.make AD56x4/CMakeFiles/AD56x4.dir/main.c.s
-.PHONY : main.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1233,9 +1209,6 @@ help:
 	@echo ... C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

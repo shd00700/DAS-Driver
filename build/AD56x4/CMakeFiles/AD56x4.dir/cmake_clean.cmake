@@ -85,8 +85,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
   "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "CMakeFiles/AD56x4.dir/main.c.obj"
-  "CMakeFiles/AD56x4.dir/main.c.obj.d"
 )
 
 # Per-language clean rules from dependency scanning.

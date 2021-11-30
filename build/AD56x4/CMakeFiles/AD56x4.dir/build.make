@@ -82,24 +82,10 @@ AD56x4/CMakeFiles/AD56x4.dir/AD56x4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/AD56x4.c.s"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\project\DAS-Driver\AD56x4\AD56x4.c -o CMakeFiles\AD56x4.dir\AD56x4.c.s
 
-AD56x4/CMakeFiles/AD56x4.dir/main.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
-AD56x4/CMakeFiles/AD56x4.dir/main.c.obj: ../AD56x4/main.c
-AD56x4/CMakeFiles/AD56x4.dir/main.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object AD56x4/CMakeFiles/AD56x4.dir/main.c.obj"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/main.c.obj -MF CMakeFiles\AD56x4.dir\main.c.obj.d -o CMakeFiles\AD56x4.dir\main.c.obj -c C:\VSARM\sdk\Pico\project\DAS-Driver\AD56x4\main.c
-
-AD56x4/CMakeFiles/AD56x4.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/main.c.i"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\project\DAS-Driver\AD56x4\main.c > CMakeFiles\AD56x4.dir\main.c.i
-
-AD56x4/CMakeFiles/AD56x4.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/main.c.s"
-	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\project\DAS-Driver\AD56x4\main.c -o CMakeFiles\AD56x4.dir\main.c.s
-
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -113,7 +99,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdl
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -127,7 +113,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -141,7 +127,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -155,7 +141,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_plat
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -169,7 +155,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -182,7 +168,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -196,7 +182,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_time\time.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -210,7 +196,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/tim
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -224,7 +210,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/tim
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -238,7 +224,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\sem.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -252,7 +238,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/sem
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -266,7 +252,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/loc
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\mutex.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -280,7 +266,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mut
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -294,7 +280,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/cri
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\datetime.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -308,7 +294,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/dat
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\pheap.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -322,7 +308,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/phe
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\common\pico_util\queue.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -336,7 +322,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/que
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -350,7 +336,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runt
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -364,7 +350,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -377,7 +363,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -391,7 +377,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -405,7 +391,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -419,7 +405,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -433,7 +419,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -447,7 +433,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -460,7 +446,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_prin
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -474,7 +460,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -487,7 +473,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_boot
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -500,7 +486,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divi
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -514,7 +500,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_doub
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -528,7 +514,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_doub
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -541,7 +527,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_doub
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -554,7 +540,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_doub
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -567,7 +553,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int6
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -581,7 +567,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_floa
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -595,7 +581,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_floa
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -608,7 +594,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_floa
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -622,7 +608,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_floa
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -635,7 +621,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mall
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -648,7 +634,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -662,7 +648,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stan
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -676,7 +662,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stan
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -690,7 +676,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stan
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -704,7 +690,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdi
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -718,7 +704,7 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdi
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -732,7 +718,6 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_
 # Object files for target AD56x4
 AD56x4_OBJECTS = \
 "CMakeFiles/AD56x4.dir/AD56x4.c.obj" \
-"CMakeFiles/AD56x4.dir/main.c.obj" \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
@@ -784,7 +769,6 @@ AD56x4_OBJECTS = \
 AD56x4_EXTERNAL_OBJECTS =
 
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/AD56x4.c.obj
-AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/main.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -835,7 +819,7 @@ AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/build.make
 AD56x4/AD56x4.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/objects1.rsp
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable AD56x4.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable AD56x4.elf"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AD56x4.dir\link.txt --verbose=$(VERBOSE)
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin\arm-none-eabi-objcopy.exe" -Oihex AD56x4.elf AD56x4.hex
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin\arm-none-eabi-objcopy.exe" -Obinary AD56x4.elf AD56x4.bin

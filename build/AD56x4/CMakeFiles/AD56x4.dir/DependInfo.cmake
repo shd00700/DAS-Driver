@@ -143,7 +143,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" "gcc" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d"
   "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" "gcc" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d"
   "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
-  "C:/VSARM/sdk/Pico/project/DAS-Driver/AD56x4/main.c" "AD56x4/CMakeFiles/AD56x4.dir/main.c.obj" "gcc" "AD56x4/CMakeFiles/AD56x4.dir/main.c.obj.d"
   "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   )
 

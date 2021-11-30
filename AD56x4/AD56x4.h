@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include "pico/stdlib.h"
+#include "pico.h"
 #include "hardware/spi.h"
 #include "hardware/gpio.h"
-
 /********************** SPI Configuration **********************/
 #define AD56x4_SPI_GROUP (spi0)
 
@@ -11,11 +9,12 @@
 #define AD56x4_SPI_BAUDRATE_24MHZ (24000000)
 #define AD56x4_SPI_BAUDRATE_12MHZ (12000000)
 
-#define AD56x4_SPI_CS_PIN (17)
-#define AD56x4_SPI_SCK_PIN (18)
-#define AD56x4_SPI_MOSI_PIN (19)
-#define AD56x4_SPI_MISO_PIN (16)
+#define AD56x4_SPI_CS_PIN (21)
+#define AD56x4_SPI_SCK_PIN (22)
+#define AD56x4_SPI_MOSI_PIN (20)
+#define AD56x4_SPI_MISO_PIN (23)
 
+#define AD56x4_SPI_TRANSFER_8BIT (8)
 #define AD56x4_SPI_TRANSFER_16BIT (16)
 #define AD56x4_SPI_POLARITY (0)
 #define AD56x4_SPI_PHASE (1)
@@ -51,6 +50,6 @@
 #define AD56x4_RESET_REQUEST (1)
 #define AD56x4_REFERENCE_ON_REQUEST (1)
 
-extern void AD56x4_Communicate_init(void);
+extern void AD56x4_SPI_init(void);
 extern void AD56x4_Voltage_Control(uint16_t Target_Voltage);
 extern void AD56x4_Current_Control(uint16_t Target_Current);

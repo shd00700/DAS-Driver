@@ -1443,7 +1443,7 @@ led/CMakeFiles/led.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 led/CMakeFiles/led.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 led/CMakeFiles/led.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : led/CMakeFiles/led.dir/rule
@@ -1464,12 +1464,12 @@ led/CMakeFiles/led.dir/clean:
 led/CMakeFiles/ELF2UF2Build.dir/all:
 	$(MAKE) $(MAKESILENT) -f led\CMakeFiles\ELF2UF2Build.dir\build.make led/CMakeFiles/ELF2UF2Build.dir/depend
 	$(MAKE) $(MAKESILENT) -f led\CMakeFiles\ELF2UF2Build.dir\build.make led/CMakeFiles/ELF2UF2Build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=28,29,30,31,32 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=28,29,30,31 "Built target ELF2UF2Build"
 .PHONY : led/CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 led/CMakeFiles/ELF2UF2Build.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 led/CMakeFiles/ELF2UF2Build.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : led/CMakeFiles/ELF2UF2Build.dir/rule
@@ -1491,7 +1491,7 @@ Optical-SW/CMakeFiles/Optical-SW.dir/all: pico-sdk/src/rp2_common/boot_stage2/CM
 Optical-SW/CMakeFiles/Optical-SW.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f Optical-SW\CMakeFiles\Optical-SW.dir\build.make Optical-SW/CMakeFiles/Optical-SW.dir/depend
 	$(MAKE) $(MAKESILENT) -f Optical-SW\CMakeFiles\Optical-SW.dir\build.make Optical-SW/CMakeFiles/Optical-SW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target Optical-SW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target Optical-SW"
 .PHONY : Optical-SW/CMakeFiles/Optical-SW.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1523,7 +1523,7 @@ AD56x4/CMakeFiles/AD56x4.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 AD56x4/CMakeFiles/AD56x4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AD56x4/CMakeFiles/AD56x4.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : AD56x4/CMakeFiles/AD56x4.dir/rule

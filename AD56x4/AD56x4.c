@@ -1,11 +1,19 @@
-#include "pico/stdlib.h"
-#include "hardware/spi.h"
-#include "hardware/gpio.h"
 #include "AD56x4.h"
+#include "pico/stdlib.h"
 
 static void AD56x4_SPI_writeMessage(uint8_t command, uint8_t address, uint16_t data);
 static void AD56x4_Reset(uint8_t ResetRequest);
 static void AD56x4_Reference(uint8_t ReferenceRequest);
+
+int main()
+{
+    AD56x4_SPI_init();
+    while (1)
+    {
+        AD56x4_Voltage_Control(5000);
+        AD56x4_Current_Control(5000);
+    }
+}
 
 /* Initial function */
 void AD56x4_SPI_init(void)
@@ -19,7 +27,7 @@ void AD56x4_SPI_init(void)
     spi_init(AD56x4_SPI_GROUP, AD56x4_SPI_BAUDRATE_12MHZ);
 
     // Set SPI format
-    spi_set_format(AD56x4_SPI_GROUP, AD56x4_SPI_TRANSFER_16BIT, AD56x4_SPI_POLARITY, AD56x4_SPI_PHASE, SPI_MSB_FIRST);
+    spi_set_format(AD56x4_SPI_GROUP, AD56x4_SPI_TRANSFER_8BIT, AD56x4_SPI_POLARITY, AD56x4_SPI_PHASE, SPI_MSB_FIRST);
 
     // Initialize SPI pins
     gpio_set_function(AD56x4_SPI_SCK_PIN, GPIO_FUNC_SPI);
@@ -79,7 +87,7 @@ void AD56x4_Current_Control(uint16_t Target_Current)
         Target_Current = AD56x4_CURRENT_CTRL_MIN;
     }
 
-    OutputValue = (uint16_t)((uint32_t)(Target_Current * AD56x4_RESOUTION / AD56x4_REFERENCE_VOLTAGE / 2 / 100));
+    OutputValue = (uint16_t)((uint32_t)Target_Current * AD56x4_RESOUTION / AD56x4_REFERENCE_VOLTAGE / 2 / 100);
 
     if (OutputValue > AD56x4_RESOUTION)
     {
@@ -105,14 +113,16 @@ static void AD56x4_Reference(uint8_t ReferenceRequest)
 
 static void AD56x4_SPI_writeMessage(uint8_t command, uint8_t address, uint16_t data)
 {
-    uint16_t outputdata;
+    uint8_t outputdata;
 
     gpio_put(AD56x4_SPI_CS_PIN, AD56x4_SPI_START);
 
-    outputdata = (command & 0x38) | (address & 0x07);
-    spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1);
-    outputdata = data;
-    spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1);
+    outputdata = ((command & 0x07) << 3) | (address & 0x07);
+    spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1); // transfer command and address
+    outputdata = (data & 0xFF00) >> 8;
+    spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1); // transfer data MSB 8bit
+    outputdata = (data & 0x00FF) >> 8;
+    spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1); // transfer data LSB 8bit
 
     gpio_put(AD56x4_SPI_CS_PIN, AD56x4_SPI_STOP);
 

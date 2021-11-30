@@ -1,7 +1,6 @@
 add_executable(AD56x4
         AD56x4.c
         AD56x4.h
-        main.c
         )
 
 # Pull in our pico_stdlib which pulls in commonly used features
