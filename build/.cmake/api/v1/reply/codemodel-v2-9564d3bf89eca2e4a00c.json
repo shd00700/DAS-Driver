@@ -1031,7 +1031,7 @@
 				{
 					"directoryIndex" : 72,
 					"id" : "AD56x4::@923e8bc9a56ffc914237",
-					"jsonFile" : "target-AD56x4-Debug-4615b43b97f135b1a513.json",
+					"jsonFile" : "target-AD56x4-Debug-6c305ff13797ae66327e.json",
 					"name" : "AD56x4",
 					"projectIndex" : 0
 				},
@@ -1045,7 +1045,7 @@
 				{
 					"directoryIndex" : 71,
 					"id" : "Optical-SW::@c88230ffda8d579e1eb9",
-					"jsonFile" : "target-Optical-SW-Debug-237dea7792d31d2cccd0.json",
+					"jsonFile" : "target-Optical-SW-Debug-f2eb75bca6cf530e8650.json",
 					"name" : "Optical-SW",
 					"projectIndex" : 0
 				},

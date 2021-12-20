@@ -701,10 +701,318 @@ AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdi
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
 
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\net\net_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: C:/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c > CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
+
+AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
+
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: AD56x4/CMakeFiles/AD56x4.dir/flags.make
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: AD56x4/CMakeFiles/AD56x4.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\AD56x4.dir\C_\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c C:\VSARM\sdk\Pico\pico-sdk\src\rp2_common\hardware_spi\spi.c
 
 AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -763,6 +1071,28 @@ AD56x4_OBJECTS = \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 
 # External object files for target AD56x4
@@ -814,12 +1144,34 @@ AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/r
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/net/net_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/build.make
 AD56x4/AD56x4.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/objects1.rsp
 AD56x4/AD56x4.elf: AD56x4/CMakeFiles/AD56x4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable AD56x4.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable AD56x4.elf"
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AD56x4.dir\link.txt --verbose=$(VERBOSE)
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin\arm-none-eabi-objcopy.exe" -Oihex AD56x4.elf AD56x4.hex
 	cd /d C:\VSARM\sdk\Pico\project\DAS-Driver\build\AD56x4 && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin\arm-none-eabi-objcopy.exe" -Obinary AD56x4.elf AD56x4.bin

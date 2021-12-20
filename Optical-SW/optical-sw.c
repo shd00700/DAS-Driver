@@ -226,7 +226,12 @@ int main()
     {
         //char ch[20];
 
-        uint16_t ch = uart_getc(UART_ID);
+        uint16_t uarta = uart_getc(UART_ID);
+        char ch[20];
+        // for (i = 0; i < uarta; i++)
+        // {
+        //     ch[] =
+        // }
 
         if (ch == 'CH2')
         {

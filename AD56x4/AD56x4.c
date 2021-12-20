@@ -1,20 +1,41 @@
 #include "AD56x4.h"
 #include "pico/stdlib.h"
+#include "hardware/uart.h"
+#include "pico/bootrom.h"
 
 static void AD56x4_SPI_writeMessage(uint8_t command, uint8_t address, uint16_t data);
 static void AD56x4_Reset(uint8_t ResetRequest);
 static void AD56x4_Reference(uint8_t ReferenceRequest);
 
+#define UART_ID uart1
+#define BAUD_RATE 115200
+#define UART_TX_PIN 8
+#define UART_RX_PIN 9
+
 int main()
 {
     AD56x4_SPI_init();
+    uarta_init();
+
     while (1)
     {
-        AD56x4_Voltage_Control(5000);
-        AD56x4_Current_Control(5000);
+
+        uint16_t uarta = uart_getc(UART_ID);
+        // AD56x4_Voltage_Control(150);
+        // AD56x4_Current_Control(10000);
+        bool data = uart_is_readable(UART_ID);
+        printf(data);
+        sleep_ms(500);
     }
 }
 
+void uarta_init(void)
+{
+    uart_init(UART_ID, BAUD_RATE);
+    gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
+    gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
+    uart_is_readable(UART_ID);
+}
 /* Initial function */
 void AD56x4_SPI_init(void)
 {
@@ -117,11 +138,11 @@ static void AD56x4_SPI_writeMessage(uint8_t command, uint8_t address, uint16_t d
 
     gpio_put(AD56x4_SPI_CS_PIN, AD56x4_SPI_START);
 
-    outputdata = ((command & 0x07) << 3) | (address & 0x07);
+    outputdata = (uint8_t)(((command & 0x07) << 3) | (address & 0x07));
     spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1); // transfer command and address
-    outputdata = (data & 0xFF00) >> 8;
+    outputdata = (uint8_t)((data & 0xFF00) >> 8);
     spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1); // transfer data MSB 8bit
-    outputdata = (data & 0x00FF) >> 8;
+    outputdata = (uint8_t)(data & 0x00FF);
     spi_write_blocking(AD56x4_SPI_GROUP, &outputdata, 1); // transfer data LSB 8bit
 
     gpio_put(AD56x4_SPI_CS_PIN, AD56x4_SPI_STOP);
