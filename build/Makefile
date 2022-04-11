@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\VSARM\sdk\Pico\project\DAS-Driver
+CMAKE_SOURCE_DIR = C:\VSARM\sdk\Pico\project\FOAE-Driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\VSARM\sdk\Pico\project\DAS-Driver\build
+CMAKE_BINARY_DIR = C:\VSARM\sdk\Pico\project\FOAE-Driver\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles C:\VSARM\sdk\Pico\project\DAS-Driver\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\FOAE-Driver\build\CMakeFiles C:\VSARM\sdk\Pico\project\FOAE-Driver\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\FOAE-Driver\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,6 +181,19 @@ ELF2UF2Build/fast:
 .PHONY : ELF2UF2Build/fast
 
 #=============================================================================
+# Target rules for targets named MUXD
+
+# Build rule for target.
+MUXD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MUXD
+.PHONY : MUXD
+
+# fast build rule for target.
+MUXD/fast:
+	$(MAKE) $(MAKESILENT) -f MUXD\CMakeFiles\MUXD.dir\build.make MUXD/CMakeFiles/MUXD.dir/build
+.PHONY : MUXD/fast
+
+#=============================================================================
 # Target rules for targets named Optical-SW
 
 # Build rule for target.
@@ -194,17 +207,17 @@ Optical-SW/fast:
 .PHONY : Optical-SW/fast
 
 #=============================================================================
-# Target rules for targets named AD56x4
+# Target rules for targets named SLDD
 
 # Build rule for target.
-AD56x4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 AD56x4
-.PHONY : AD56x4
+SLDD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SLDD
+.PHONY : SLDD
 
 # fast build rule for target.
-AD56x4/fast:
-	$(MAKE) $(MAKESILENT) -f AD56x4\CMakeFiles\AD56x4.dir\build.make AD56x4/CMakeFiles/AD56x4.dir/build
-.PHONY : AD56x4/fast
+SLDD/fast:
+	$(MAKE) $(MAKESILENT) -f SLDD\CMakeFiles\SLDD.dir\build.make SLDD/CMakeFiles/SLDD.dir/build
+.PHONY : SLDD/fast
 
 # Help Target
 help:
@@ -217,8 +230,9 @@ help:
 	@echo ... ELF2UF2Build
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
-	@echo ... AD56x4
+	@echo ... MUXD
 	@echo ... Optical-SW
+	@echo ... SLDD
 	@echo ... bs2_default
 	@echo ... led
 .PHONY : help

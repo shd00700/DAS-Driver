@@ -1,4 +1,4 @@
-# Install script for directory: C:/VSARM/sdk/Pico/project/DAS-Driver/Optical-SW
+# Install script for directory: C:/VSARM/sdk/Pico/project/FOAE-Driver/Optical-SW
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

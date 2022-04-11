@@ -1,4 +1,4 @@
-# Install script for directory: C:/VSARM/sdk/Pico/project/DAS-Driver/led
+# Install script for directory: C:/VSARM/sdk/Pico/project/FOAE-Driver/led
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

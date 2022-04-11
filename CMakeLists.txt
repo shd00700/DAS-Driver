@@ -29,11 +29,12 @@ add_compile_options(-Wall
 
 # Hardware-specific examples in subdirectories:
 add_subdirectory(led)
+add_subdirectory(MUXD)
 add_subdirectory(Optical-SW)
-add_subdirectory(AD56x4)
+add_subdirectory(SLDD)
 
 # Enable usb output, disable uart output
 # pico_enable_stdio_usb(Optical-SW 1)
 # pico_enable_stdio_uart(Optical-SW 1)
-pico_enable_stdio_usb(AD56x4 1)
-pico_enable_stdio_uart(AD56x4 1)
+pico_enable_stdio_usb(SLDD 1)
+pico_enable_stdio_uart(SLDD 1)

@@ -118,9 +118,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/tinyusb/CMakeLists.txt"
   "C:/VSARM/sdk/Pico/pico-sdk/tools/CMakeLists.txt"
   "C:/VSARM/sdk/Pico/pico-sdk/tools/FindELF2UF2.cmake"
-  "../AD56x4/CMakeLists.txt"
   "../CMakeLists.txt"
+  "../MUXD/CMakeLists.txt"
   "../Optical-SW/CMakeLists.txt"
+  "../SLDD/CMakeLists.txt"
   "CMakeFiles/3.21.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.21.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.21.2/CMakeCXXCompiler.cmake"
@@ -211,8 +212,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "led/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "led/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "MUXD/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Optical-SW/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "AD56x4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "SLDD/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -222,6 +224,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/DependInfo.cmake"
   "led/CMakeFiles/led.dir/DependInfo.cmake"
   "led/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
+  "MUXD/CMakeFiles/MUXD.dir/DependInfo.cmake"
   "Optical-SW/CMakeFiles/Optical-SW.dir/DependInfo.cmake"
-  "AD56x4/CMakeFiles/AD56x4.dir/DependInfo.cmake"
+  "SLDD/CMakeFiles/SLDD.dir/DependInfo.cmake"
   )
