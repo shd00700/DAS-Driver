@@ -1474,50 +1474,31 @@ MUXD/CMakeFiles/MUXD.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdlib/s
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h
 
 MUXD/CMakeFiles/MUXD.dir/muxd.c.obj: ../MUXD/muxd.c \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/stdio.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/_ansi.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/newlib.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/_newlib_version.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/config.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/ieeefp.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/features.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/cdefs.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/_default_types.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/reent.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/_ansi.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_types.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/_types.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/lock.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/types.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_stdint.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/endian.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/_endian.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/select.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_sigset.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_timeval.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/timespec.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_timespec.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_pthreadtypes.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/sched.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/types.h \
-  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/stdio.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/assert.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/_ansi.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/newlib.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/_newlib_version.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/config.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/ieeefp.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/features.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/machine/_default_types.h \
   C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_intsup.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/_stdint.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
   generated/pico_base/pico/version.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico/config.h \
   generated/pico_base/pico/config_autogen.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/boards/include/boards/pico.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  C:/Program\ Files\ (x86)/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.07/arm-none-eabi/include/sys/cdefs.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico/error.h \
@@ -1537,7 +1518,8 @@ MUXD/CMakeFiles/MUXD.dir/muxd.c.obj: ../MUXD/muxd.c \
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   C:/VSARM/sdk/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+  C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  ../MUXD/muxd.h
 
 
 C:/VSARM/sdk/Pico/pico-sdk/src/common/pico_base/include/pico/types.h:
@@ -1757,6 +1739,8 @@ C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h:
 C:/VSARM/sdk/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h:
 
 C:/VSARM/sdk/Pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h:
+
+../MUXD/muxd.h:
 
 C:/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 

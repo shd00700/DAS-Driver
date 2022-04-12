@@ -31,21 +31,21 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  13 .comment      00000049  00000000  00000000  00021408  2**0
                   CONTENTS, READONLY
- 14 .debug_info   0001371a  00000000  00000000  00021451  2**0
+ 14 .debug_info   000135e2  00000000  00000000  00021451  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_abbrev 00003f76  00000000  00000000  00034b6b  2**0
+ 15 .debug_abbrev 00003f5c  00000000  00000000  00034a33  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_loc    0000d11e  00000000  00000000  00038ae1  2**0
+ 16 .debug_loc    0000d11e  00000000  00000000  0003898f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_aranges 00000d18  00000000  00000000  00045c00  2**3
+ 17 .debug_aranges 00000d18  00000000  00000000  00045ab0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_ranges 000029f8  00000000  00000000  00046918  2**3
+ 18 .debug_ranges 000029f8  00000000  00000000  000467c8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   0000cf02  00000000  00000000  00049310  2**0
+ 19 .debug_line   0000cef4  00000000  00000000  000491c0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    000031ed  00000000  00000000  00056212  2**0
+ 20 .debug_str    000031ed  00000000  00000000  000560b4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  000014dc  00000000  00000000  00059400  2**2
+ 21 .debug_frame  000014dc  00000000  00000000  000592a4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Optical-SW.elf:     file format elf32-littlearm

@@ -1018,9 +1018,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_65.1
                 0x00000000        0xc CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\ENITT\AppData\Local\Temp\ccEMhd8F.o
- .data          0x00000000        0x0 C:\Users\ENITT\AppData\Local\Temp\ccEMhd8F.o
- .bss           0x00000000        0x0 C:\Users\ENITT\AppData\Local\Temp\ccEMhd8F.o
+ .text          0x00000000        0x0 C:\Users\ENITT\AppData\Local\Temp\ccUu7MUD.o
+ .data          0x00000000        0x0 C:\Users\ENITT\AppData\Local\Temp\ccUu7MUD.o
+ .bss           0x00000000        0x0 C:\Users\ENITT\AppData\Local\Temp\ccUu7MUD.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1214,7 +1214,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ENITT\AppData\Local\Temp\ccEMhd8F.o
+ .boot2         0x10000000      0x100 C:\Users\ENITT\AppData\Local\Temp\ccUu7MUD.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2149,7 +2149,7 @@ LOAD CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_st
 LOAD CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\ENITT\AppData\Local\Temp\ccEMhd8F.o
+LOAD C:\Users\ENITT\AppData\Local\Temp\ccUu7MUD.o
 LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2242,7 +2242,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000598       0x2c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x000005c4       0x22 C:\Users\ENITT\AppData\Local\Temp\ccEMhd8F.o
+                0x000005c4       0x22 C:\Users\ENITT\AppData\Local\Temp\ccUu7MUD.o
  .ARM.attributes
                 0x000005e6       0x1e c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2275,75 +2275,75 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_info     0x00000000    0x1371a
- .debug_info    0x00000000     0x13d8 CMakeFiles/Optical-SW.dir/optical-sw.c.obj
- .debug_info    0x000013d8     0x1465 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x0000283d      0x6ba CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00002ef7      0x1e3 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x000030da      0x58e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00003668      0xb64 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x000041cc     0x3b2f CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x00007cfb     0x1130 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x00008e2b      0x1a4 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00008fcf     0x13b2 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000a381     0x120c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000b58d      0x9bc CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0000bf49      0xf56 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000ce9f     0x191a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x0000e7b9      0x509 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000ecc2      0x49c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x0000f15e      0x1dd CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x0000f33b     0x1a5f CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00010d9a       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00010dbc      0x231 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00010fed       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x0001100f       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00011031      0x2a0 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x000112d1       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x000112f3       0x26 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00011319       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x0001133b      0x2e9 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x00011624       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_info    0x00011646       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00011668       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x0001168a      0x2f6 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x00011980     0x116b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00012aeb      0xc2f CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_info     0x00000000    0x135e2
+ .debug_info    0x00000000     0x12a0 CMakeFiles/Optical-SW.dir/optical-sw.c.obj
+ .debug_info    0x000012a0     0x1465 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00002705      0x6ba CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00002dbf      0x1e3 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00002fa2      0x58e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00003530      0xb64 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x00004094     0x3b2f CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x00007bc3     0x1130 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x00008cf3      0x1a4 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00008e97     0x13b2 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000a249     0x120c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000b455      0x9bc CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x0000be11      0xf56 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000cd67     0x191a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x0000e681      0x509 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000eb8a      0x49c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000f026      0x1dd CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0000f203     0x1a5f CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00010c62       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00010c84      0x231 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00010eb5       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00010ed7       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00010ef9      0x2a0 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00011199       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x000111bb       0x26 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x000111e1       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x00011203      0x2e9 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x000114ec       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_info    0x0001150e       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00011530       0x22 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x00011552      0x2f6 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x00011848     0x116b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000129b3      0xc2f CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_abbrev   0x00000000     0x3f76
- .debug_abbrev  0x00000000      0x332 CMakeFiles/Optical-SW.dir/optical-sw.c.obj
- .debug_abbrev  0x00000332      0x2c4 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x000005f6      0x2d6 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x000008cc       0xeb CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x000009b7      0x21b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000bd2      0x2d2 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x00000ea4      0x53c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x000013e0      0x37e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x0000175e      0x116 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00001874      0x37d CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00001bf1      0x297 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x00001e88      0x35a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x000021e2      0x372 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x00002554      0x4a5 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x000029f9      0x1ea CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x00002be3      0x1b1 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00002d94      0x109 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00002e9d      0x384 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x00003221       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x00003233       0xf8 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x0000332b       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x0000333d       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x0000334f      0x166 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x000034b5       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x000034c7       0x14 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x000034db       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x000034ed      0x179 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x00003666       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_abbrev  0x00003678       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x0000368a       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x0000369c       0xad CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00003749      0x4a7 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00003bf0      0x386 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_abbrev   0x00000000     0x3f5c
+ .debug_abbrev  0x00000000      0x318 CMakeFiles/Optical-SW.dir/optical-sw.c.obj
+ .debug_abbrev  0x00000318      0x2c4 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x000005dc      0x2d6 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x000008b2       0xeb CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x0000099d      0x21b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000bb8      0x2d2 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x00000e8a      0x53c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x000013c6      0x37e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00001744      0x116 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x0000185a      0x37d CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00001bd7      0x297 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x00001e6e      0x35a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x000021c8      0x372 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x0000253a      0x4a5 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x000029df      0x1ea CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x00002bc9      0x1b1 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x00002d7a      0x109 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00002e83      0x384 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x00003207       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x00003219       0xf8 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x00003311       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x00003323       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x00003335      0x166 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x0000349b       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x000034ad       0x14 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x000034c1       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x000034d3      0x179 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x0000364c       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_abbrev  0x0000365e       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00003670       0x12 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x00003682       0xad CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x0000372f      0x4a7 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00003bd6      0x386 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_loc      0x00000000     0xd11e
  .debug_loc     0x00000000      0x84f CMakeFiles/Optical-SW.dir/optical-sw.c.obj
@@ -2471,40 +2471,40 @@ LOAD linker stubs
  .debug_ranges  0x00002630      0x198 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_ranges  0x000027c8      0x230 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000     0xcf02
- .debug_line    0x00000000      0x81c CMakeFiles/Optical-SW.dir/optical-sw.c.obj
- .debug_line    0x0000081c      0x9bc CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x000011d8      0x45b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001633      0x26a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000189d      0x457 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001cf4      0x720 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00002414     0x18ed CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x00003d01      0xac9 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000047ca      0x20e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000049d8      0xa97 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000546f      0x87e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00005ced      0x7f4 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x000064e1      0x987 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00006e68      0xe11 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00007c79      0x52d CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x000081a6      0x39c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008542      0x299 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000087db     0x1218 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x000099f3      0x147 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x00009b3a      0x1c1 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x00009cfb      0x2ce CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x00009fc9      0x425 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000a3ee      0x329 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000a717      0x69b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000adb2       0x97 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000ae49      0x3db CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000b224      0x32d CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000b551      0x1c7 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
- .debug_line    0x0000b718       0xc1 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000b7d9       0xd2 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000b8ab      0x1ad CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000ba58      0xc71 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000c6c9      0x839 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000     0xcef4
+ .debug_line    0x00000000      0x80e CMakeFiles/Optical-SW.dir/optical-sw.c.obj
+ .debug_line    0x0000080e      0x9bc CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000011ca      0x45b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001625      0x26a CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000188f      0x457 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001ce6      0x720 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00002406     0x18ed CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x00003cf3      0xac9 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000047bc      0x20e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x000049ca      0xa97 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00005461      0x87e CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00005cdf      0x7f4 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x000064d3      0x987 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00006e5a      0xe11 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00007c6b      0x52d CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00008198      0x39c CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008534      0x299 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000087cd     0x1218 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x000099e5      0x147 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00009b2c      0x1c1 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00009ced      0x2ce CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x00009fbb      0x425 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000a3e0      0x329 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000a709      0x69b CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000ada4       0x97 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000ae3b      0x3db CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000b216      0x32d CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000b543      0x1c7 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+ .debug_line    0x0000b70a       0xc1 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000b7cb       0xd2 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000b89d      0x1ad CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000ba4a      0xc71 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000c6bb      0x839 CMakeFiles/Optical-SW.dir/C_/VSARM/sdk/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_str      0x00000000     0x31ed
  .debug_str     0x00000000      0x545 CMakeFiles/Optical-SW.dir/optical-sw.c.obj
