@@ -562,5 +562,6 @@ int main()
         continue;
     }
     printf("BO");
+    printf("A");
     return 0;
 }
