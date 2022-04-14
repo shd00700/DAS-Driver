@@ -12,116 +12,295 @@ const uint s1 = 16;
 const uint s2 = 17;
 const uint s3 = 18;
 const uint s4 = 19;
+const uint s5 = 20;
+const uint s6 = 21;
+const uint s7 = 22;
+const uint s8 = 23;
+const uint s9 = 20;
+const uint s10 = 25;
 
-int controlPin[] = {s1, s2, s3, s4};
+int controlPin_I[] = {s1, s2, s3, s4};
+int controlPin_Q[] = {s6, s7, s8, s9};
 
 int Muxchannel[16][4] = {
-    // s0, s1, s2, s3     channel
-    {0, 0, 0, 0}, // 0
-    {1, 0, 0, 0}, // 1
-    {0, 1, 0, 0}, // 2
-    {1, 1, 0, 0}, // 3
-    {0, 0, 1, 0}, // 4
-    {1, 0, 1, 0}, // 5
-    {0, 1, 1, 0}, // 6
-    {1, 1, 1, 0}, // 7
-    {0, 0, 0, 1}, // 8
-    {1, 0, 0, 1}, // 9
-    {0, 1, 0, 1}, // 10
-    {1, 1, 0, 1}, // 11
-    {0, 0, 1, 1}, // 12
-    {1, 0, 1, 1}, // 13
-    {0, 1, 1, 1}, // 14
-    {1, 1, 1, 1}  // 15
-};
 
-void muxnum(int n)
+    {0, 0, 0, 0},
+    {1, 0, 0, 0},
+    {0, 1, 0, 0},
+    {1, 1, 0, 0},
+    {0, 0, 1, 0},
+    {1, 0, 1, 0},
+    {0, 1, 1, 0},
+    {1, 1, 1, 0},
+    {0, 0, 0, 1},
+    {1, 0, 0, 1},
+    {0, 1, 0, 1},
+    {1, 1, 0, 1},
+    {0, 0, 1, 1},
+    {1, 0, 1, 1},
+    {0, 1, 1, 1},
+    {1, 1, 1, 1}};
+
+void muxI_init()
 {
     gpio_init(s1);
     gpio_init(s2);
     gpio_init(s3);
     gpio_init(s4);
+    gpio_init(s5);
     gpio_set_dir(s1, GPIO_OUT);
     gpio_set_dir(s2, GPIO_OUT);
     gpio_set_dir(s3, GPIO_OUT);
     gpio_set_dir(s4, GPIO_OUT);
+    gpio_set_dir(s5, GPIO_OUT);
+}
+
+void muxQ_init()
+{
+    gpio_init(s6);
+    gpio_init(s7);
+    gpio_init(s8);
+    gpio_init(s9);
+    gpio_init(s10);
+    gpio_set_dir(s6, GPIO_OUT);
+    gpio_set_dir(s7, GPIO_OUT);
+    gpio_set_dir(s8, GPIO_OUT);
+    gpio_set_dir(s9, GPIO_OUT);
+    gpio_set_dir(s10, GPIO_OUT);
+}
+
+void muxnum_I(int n)
+{
+    gpio_put(s5, 1);
+    gpio_put(s10, 0);
 
     switch (n)
     {
     case 0:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 1:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 2:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 3:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 4:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 5:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 6:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 7:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 8:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 9:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
         }
         break;
 
     case 10:
         for (int i = 0; i < 4; i++)
         {
-            gpio_put(controlPin[i], Muxchannel[n][i]);
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
+        }
+        break;
+    case 11:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
+        }
+        break;
+    case 12:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
+        }
+        break;
+    case 13:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
+        }
+        break;
+    case 14:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 15:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_I[i], Muxchannel[n][i]);
+        }
+        break;
+
+    default:
+        break;
+    }
+}
+
+void muxnum_Q(int n)
+{
+    gpio_put(s10, 1);
+    gpio_put(s5, 0);
+
+    switch (n)
+    {
+    case 0:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 1:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 2:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 3:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 4:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 5:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 6:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 7:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 8:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 9:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 10:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+    case 11:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+    case 12:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+    case 13:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+    case 14:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
+        }
+        break;
+
+    case 15:
+        for (int i = 0; i < 4; i++)
+        {
+            gpio_put(controlPin_Q[i], Muxchannel[n][i]);
         }
         break;
 
@@ -136,13 +315,18 @@ int main()
     stdio_init_all();
     sleep_ms(3000);
 
+    muxI_init();
+    muxQ_init();
     // UART Setup
     uart_init(UART_ID, BAUD_RATE);
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
     gpio_set_function(UART_RX_PIN, GPIO_FUNC_UART);
     uart_is_readable(UART_ID);
 
-    muxnum(0);
+    muxnum_I(0);
+    muxnum_Q(0);
+    gpio_put(s5, 0);
+    gpio_put(s10, 0);
 
     while (1)
     {
@@ -152,78 +336,225 @@ int main()
 
         if (ch == '0')
         {
-            muxnum(0);
-            printf("1ch\n");
+            muxnum_I(0);
+            printf("I 0ch\n");
             continue;
         }
 
         if (ch == '1')
         {
-            muxnum(1);
-            printf("2ch\n");
+            muxnum_I(1);
+            printf("I 1ch\n");
             continue;
         }
 
         if (ch == '2')
         {
-            muxnum(2);
-            printf("2ch\n");
+            muxnum_I(2);
+            printf("I 2ch\n");
             continue;
         }
 
         if (ch == '3')
         {
-            muxnum(3);
-            printf("2ch\n");
+            muxnum_I(3);
+            printf("I 3ch\n");
             continue;
         }
 
         if (ch == '4')
         {
-            muxnum(4);
-            printf("2ch\n");
+            muxnum_I(4);
+            printf("I 4ch\n");
             continue;
         }
 
         if (ch == '5')
         {
-            muxnum(5);
-            printf("2ch\n");
+            muxnum_I(5);
+            printf("I 5ch\n");
             continue;
         }
 
         if (ch == '6')
         {
-            muxnum(6);
-            printf("2ch\n");
+            muxnum_I(6);
+            printf("I 6ch\n");
             continue;
         }
 
         if (ch == '7')
         {
-            muxnum(7);
-            printf("2ch\n");
+            muxnum_I(7);
+            printf("I 7ch\n");
             continue;
         }
 
         if (ch == '8')
         {
-            muxnum(8);
-            printf("2ch\n");
+            muxnum_I(8);
+            printf("I 8ch\n");
             continue;
         }
 
         if (ch == '9')
         {
-            muxnum(9);
-            printf("2ch\n");
+            muxnum_I(9);
+            printf("I 9ch\n");
             continue;
         }
 
-        if (ch == '10')
+        if (ch == 'a')
         {
-            muxnum(10);
-            printf("2ch\n");
+            muxnum_I(10);
+            printf("I 10ch\n");
+            continue;
+        }
+
+        if (ch == 'b')
+        {
+            muxnum_I(11);
+            printf("I 11ch\n");
+            continue;
+        }
+
+        if (ch == 'c')
+        {
+            muxnum_I(12);
+            printf("I 12ch\n");
+            continue;
+        }
+
+        if (ch == 'd')
+        {
+            muxnum_I(13);
+            printf("I 13ch\n");
+            continue;
+        }
+
+        if (ch == 'e')
+        {
+            muxnum_I(14);
+            printf("I 14ch\n");
+            continue;
+        }
+
+        if (ch == 'f')
+        {
+            muxnum_I(15);
+            printf("I 15ch\n");
+            continue;
+        }
+
+        if (ch == ')')
+        {
+            muxnum_Q(0);
+            printf("Q 0ch\n");
+            continue;
+        }
+
+        if (ch == '!')
+        {
+            muxnum_Q(1);
+            printf("Q 1ch\n");
+            continue;
+        }
+
+        if (ch == '@')
+        {
+            muxnum_Q(2);
+            printf("Q 2ch\n");
+            continue;
+        }
+
+        if (ch == '#')
+        {
+            muxnum_Q(3);
+            printf("Q 3ch\n");
+            continue;
+        }
+
+        if (ch == '$')
+        {
+            muxnum_Q(4);
+            printf("Q 4ch\n");
+            continue;
+        }
+
+        if (ch == '%')
+        {
+            muxnum_Q(5);
+            printf("Q 5ch\n");
+            continue;
+        }
+
+        if (ch == '^')
+        {
+            muxnum_Q(6);
+            printf("Q 6ch\n");
+            continue;
+        }
+
+        if (ch == '&')
+        {
+            muxnum_Q(7);
+            printf("Q 7ch\n");
+            continue;
+        }
+
+        if (ch == '*')
+        {
+            muxnum_Q(8);
+            printf("Q 8ch\n");
+            continue;
+        }
+
+        if (ch == '(')
+        {
+            muxnum_Q(9);
+            printf("Q 9ch\n");
+            continue;
+        }
+
+        if (ch == 'A')
+        {
+            muxnum_Q(10);
+            printf("Q 10ch\n");
+            continue;
+        }
+
+        if (ch == 'B')
+        {
+            muxnum_Q(11);
+            printf("Q 11ch\n");
+            continue;
+        }
+
+        if (ch == 'C')
+        {
+            muxnum_Q(12);
+            printf("Q 12ch\n");
+            continue;
+        }
+
+        if (ch == 'D')
+        {
+            muxnum_Q(13);
+            printf("Q 13ch\n");
+            continue;
+        }
+
+        if (ch == 'E')
+        {
+            muxnum_Q(14);
+            printf("Q 14ch\n");
+            continue;
+        }
+
+        if (ch == 'F')
+        {
+            muxnum_Q(15);
+            printf("Q 15ch\n");
             continue;
         }
 
