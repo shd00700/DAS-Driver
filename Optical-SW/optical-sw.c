@@ -38,16 +38,18 @@ int sevenseg[7][8] = {
 
 void swnum(int n)
 {
-    gpio_init(sw1);
-    gpio_init(sw2);
-    gpio_init(sw3);
-    gpio_set_dir(sw1, GPIO_OUT);
-    gpio_set_dir(sw2, GPIO_OUT);
-    gpio_set_dir(sw3, GPIO_OUT);
 
     switch (n)
     {
     case 0:
+        gpio_put(segPin[0], 0);
+        gpio_put(segPin[1], 0);
+        gpio_put(segPin[2], 0);
+        gpio_put(segPin[3], 0);
+        gpio_put(segPin[4], 0);
+        gpio_put(segPin[5], 0);
+        gpio_put(segPin[6], 0);
+        gpio_put(segPin[7], 0);
 
         gpio_put(sw1, 1);
         gpio_put(sw2, 0);
@@ -58,12 +60,12 @@ void swnum(int n)
     case 1:
         gpio_put(segPin[0], 0);
         gpio_put(segPin[1], 0);
-        gpio_put(segPin[2], 1);
+        gpio_put(segPin[2], 0);
         gpio_put(segPin[3], 0);
         gpio_put(segPin[4], 0);
         gpio_put(segPin[5], 0);
         gpio_put(segPin[6], 0);
-        gpio_put(segPin[7], 1);
+        gpio_put(segPin[7], 0);
 
         gpio_put(sw1, 1);
         gpio_put(sw2, 0);
@@ -72,6 +74,14 @@ void swnum(int n)
         break;
 
     case 2:
+        gpio_put(segPin[0], 1);
+        gpio_put(segPin[1], 1);
+        gpio_put(segPin[2], 0);
+        gpio_put(segPin[3], 1);
+        gpio_put(segPin[4], 1);
+        gpio_put(segPin[5], 0);
+        gpio_put(segPin[6], 1);
+        gpio_put(segPin[7], 1);
 
         gpio_put(sw1, 0);
         gpio_put(sw2, 1);
@@ -79,32 +89,55 @@ void swnum(int n)
 
         break;
     case 3:
+        gpio_put(segPin[0], 1);
+        gpio_put(segPin[1], 1);
+        gpio_put(segPin[2], 1);
+        gpio_put(segPin[3], 1);
+        gpio_put(segPin[4], 0);
+        gpio_put(segPin[5], 0);
+        gpio_put(segPin[6], 1);
+        gpio_put(segPin[7], 1);
+
         gpio_put(sw1, 0);
         gpio_put(sw2, 0);
         gpio_put(sw3, 1);
         break;
     case 4:
+        gpio_put(segPin[0], 0);
+        gpio_put(segPin[1], 1);
+        gpio_put(segPin[2], 1);
+        gpio_put(segPin[3], 0);
+        gpio_put(segPin[4], 0);
+        gpio_put(segPin[5], 1);
+        gpio_put(segPin[6], 1);
+        gpio_put(segPin[7], 1);
 
         gpio_put(sw1, 0);
         gpio_put(sw2, 0);
         gpio_put(sw3, 0);
         break;
 
-    case 5:
-
-        gpio_put(segPin[0], 0);
-        gpio_put(segPin[1], 0);
-        gpio_put(segPin[2], 0);
-        gpio_put(segPin[3], 0);
-        gpio_put(segPin[4], 0);
-        gpio_put(segPin[5], 0);
-        gpio_put(segPin[6], 0);
-        gpio_put(segPin[7], 0);
-
-        break;
-
     default:
         break;
+    }
+}
+void sw_init()
+{
+    gpio_init(sw1);
+    gpio_init(sw2);
+    gpio_init(sw3);
+    gpio_set_dir(sw1, GPIO_OUT);
+    gpio_set_dir(sw2, GPIO_OUT);
+    gpio_set_dir(sw3, GPIO_OUT);
+}
+
+void segment_init()
+{
+    for (pin = 0; pin < 8; pin++)
+    {
+        gpio_init(segPin[pin]);
+        gpio_set_dir(segPin[pin], GPIO_OUT);
+        gpio_put(segPin[pin], 0);
     }
 }
 int main()
@@ -115,7 +148,18 @@ int main()
     char s1[10];
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
-
+    // int index = 0;
+    // int pro = 0;
+    // char buffer[20];
+    // char data;
+    segment_init();
+    sw_init();
+    // int size;
+    // int i;
+    // char bb[15];
+    // // char ch[15];
+    // char nn[20];
+    // bool mm;
     // UART Setup
     uart_init(UART_ID, BAUD_RATE);
     gpio_set_function(UART_TX_PIN, GPIO_FUNC_UART);
@@ -134,13 +178,10 @@ int main()
         //  {
         //      ch[] =
         //  }
-
-        if (ch == '2')
-        {
-            swnum(2);
-            printf("2ch\n");
-            continue;
-        }
+        // for (i = 0; i < 1; i++)
+        // {
+        //     bb[0] = ch;
+        // }
 
         if (ch == '1')
         {
@@ -166,91 +207,6 @@ int main()
         {
             swnum(4);
             printf("4ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
-            continue;
-        }
-        if (ch == '5')
-        {
-            swnum(5);
-            printf("5ch\n");
             continue;
         }
 

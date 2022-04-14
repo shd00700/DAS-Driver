@@ -1491,12 +1491,12 @@ Optical-SW/CMakeFiles/Optical-SW.dir/all: pico-sdk/src/rp2_common/boot_stage2/CM
 Optical-SW/CMakeFiles/Optical-SW.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f Optical-SW\CMakeFiles\Optical-SW.dir\build.make Optical-SW/CMakeFiles/Optical-SW.dir/depend
 	$(MAKE) $(MAKESILENT) -f Optical-SW\CMakeFiles\Optical-SW.dir\build.make Optical-SW/CMakeFiles/Optical-SW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target Optical-SW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target Optical-SW"
 .PHONY : Optical-SW/CMakeFiles/Optical-SW.dir/all
 
 # Build rule for subdir invocation for target.
 Optical-SW/CMakeFiles/Optical-SW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Optical-SW/CMakeFiles/Optical-SW.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : Optical-SW/CMakeFiles/Optical-SW.dir/rule
@@ -1518,12 +1518,12 @@ SLDD/CMakeFiles/SLDD.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2
 SLDD/CMakeFiles/SLDD.dir/all: led/CMakeFiles/ELF2UF2Build.dir/all
 	$(MAKE) $(MAKESILENT) -f SLDD\CMakeFiles\SLDD.dir\build.make SLDD/CMakeFiles/SLDD.dir/depend
 	$(MAKE) $(MAKESILENT) -f SLDD\CMakeFiles\SLDD.dir\build.make SLDD/CMakeFiles/SLDD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target SLDD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles --progress-num=44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70 "Built target SLDD"
 .PHONY : SLDD/CMakeFiles/SLDD.dir/all
 
 # Build rule for subdir invocation for target.
 SLDD/CMakeFiles/SLDD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SLDD/CMakeFiles/SLDD.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\VSARM\sdk\Pico\project\DAS-Driver\build\CMakeFiles 0
 .PHONY : SLDD/CMakeFiles/SLDD.dir/rule

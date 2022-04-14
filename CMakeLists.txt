@@ -36,5 +36,5 @@ add_subdirectory(SLDD)
 # Enable usb output, disable uart output
 # pico_enable_stdio_usb(Optical-SW 1)
 # pico_enable_stdio_uart(Optical-SW 1)
-pico_enable_stdio_usb(SLDD 1)
-pico_enable_stdio_uart(SLDD 1)
+pico_enable_stdio_usb(Optical-SW 1)
+pico_enable_stdio_uart(Optical-SW 1)
